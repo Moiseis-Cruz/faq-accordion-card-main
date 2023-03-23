@@ -7,9 +7,7 @@
     --tertiary-color: hsl(240, 5%, 91%);
 
     --gradient: linear-gradient(
-        to top,
         hsl(273, 75%, 66%),
-        hsl(240, 73%, 65%),
-        rgb(226 212 92)
+        hsl(240, 73%, 65%)
     )
 }
