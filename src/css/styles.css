@@ -15,7 +15,7 @@ main {
 
 .container {
     width: 920px;
-    height: 509px;
+    max-height: 509px;
     background-color: var(--tertiary-color);
     display: flex;
     align-items: center;
@@ -23,6 +23,7 @@ main {
     position: relative;
     border-radius: 23px;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    gap: 87px;
     /* overflow: hidden; */
 }
 
@@ -30,7 +31,7 @@ main {
     background-image: url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: top 10px right;
-    background-size: auto;
+    background-size: cover;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -59,6 +60,12 @@ main {
     font-weight: 700;
 }
 
+.item {
+    background-color: burlywood;
+    width: 350px;
+    margin-bottom: 16px;
+}
+
 .item h2 {
     font-size: 14px;
     font-weight: 400;
@@ -68,4 +75,5 @@ main {
 .item p {
     font-size: 12px;
     color: var(--primary-neutral);
+    display: none;
 }
