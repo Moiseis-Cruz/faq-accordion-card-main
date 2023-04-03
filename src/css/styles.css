@@ -30,31 +30,30 @@ main {
     background-image: url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: top 10px right;
-    background-size: cover;
+    background-size: auto;
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
 }
-/* 
 
-.container .image-box {
+/* .container .image-box {
     width: 10rem;
     position: absolute;
     left: -8rem;
     z-index: 1;
-}
+} */
 
 .container .image-woman {
-    width: 30rem;
-    width: 28rem;
-    position: absolute;
-    left: -5rem;
-    z-index: -1;
+    width: 472px;
+    height: 359px;
+    /* position: absolute; */
+    /* left: -5rem; */
+    /* z-index: -1; */
 }
 
-.container-content {
-    margin-left: 25rem;
-}
+/* .container-content {
+    background-color: aqua;
+} */
 
 .container-content .title {
     font-weight: 700;
@@ -63,9 +62,10 @@ main {
 .item h2 {
     font-size: 14px;
     font-weight: 400;
-    background-color: aquamarine;
+    color: var(--primary-color);
 }
 
 .item p {
     font-size: 12px;
-} */
+    color: var(--primary-neutral);
+}
