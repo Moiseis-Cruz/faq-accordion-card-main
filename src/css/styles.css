@@ -32,27 +32,18 @@ main {
 }
 
 .images {
-    /* background-color: blue; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     flex: 1;
     position: relative;
     background: url(../images/bg-pattern-desktop.svg) no-repeat center top;
 }
 
 .box {
-    /* background-color: red; */
     position: absolute;
-    top: 50%;
+    top: -50%;
     left: -92px;
-    /* width: 90px; */
-    /* height: 106px; */
-    /* display: inline-block; */
 }
 
 .woman {
-    /* background-color: aquamarine; */
     width: 472px;
     height: 359px;
     position: absolute;
