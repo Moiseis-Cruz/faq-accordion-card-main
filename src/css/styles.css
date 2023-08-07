@@ -20,23 +20,48 @@ main {
 }
 
 .content-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--tertiary-color);
-    width: 920px;
-    height: 509px;
+    width: 100%;
+    max-width: 920px;
+    min-height: 509px;
     border-radius: 23px;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
 }
 
+.images {
+    /* background-color: blue; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    flex: 1;
+    position: relative;
+    background: url(../images/bg-pattern-desktop.svg) no-repeat center top;
+}
+
 .box {
-    background-color: red;
-    width: 90px;
-    height: 106px;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: -92px;
+    /* width: 90px; */
+    /* height: 106px; */
+    /* display: inline-block; */
 }
 
 .woman {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 472px;
     height: 359px;
+    position: absolute;
+    top: 50%;
+}
+
+.teste {
+    background-color: rebeccapurple;
+    flex: 1;
 }
 
 h2 {
