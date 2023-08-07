@@ -9,6 +9,7 @@ body {
     */
     font-weight: 400;
     background: var(--gradient);
+    margin: auto;
 }
 
 main {
@@ -17,6 +18,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .content-card {
@@ -29,18 +31,20 @@ main {
     min-height: 509px;
     border-radius: 23px;
     box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    z-index: 1;
 }
 
 .images {
     flex: 1;
     position: relative;
-    background: url(../images/bg-pattern-desktop.svg) no-repeat center top;
+    /* background: url(../images/bg-pattern-desktop.svg) no-repeat; */
 }
 
 .box {
     position: absolute;
     top: -50%;
     left: -92px;
+    z-index: 1;
 }
 
 .woman {
@@ -48,19 +52,41 @@ main {
     height: 359px;
     position: absolute;
     top: 50%;
+    left: -83px;
+    transform: translateY(-50%);
+    /* z-index: 0; */
 }
 
-.teste {
-    background-color: rebeccapurple;
+.acordeon {
     flex: 1;
 }
 
-h2 {
-    font-size: 14px;
-    font-weight: 400;
+.acordeon .title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 35px;
 }
 
-p {
+.acordeon .item {
+    margin-bottom: 16px;
+    width: 350px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--secundary-neutral);
+    background: url(../images/icon-arrow-down.svg) no-repeat right top;
+    cursor: pointer;
+}
+
+.acordeon .item:last-child {
+    margin-bottom: 0;
+}
+
+.acordeon h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.acordeon p {
     font-size: 12px;
     display: none;
 }
