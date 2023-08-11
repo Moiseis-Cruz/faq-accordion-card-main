@@ -1,7 +1,11 @@
-const items = document.querySelectorAll(".item")
+const item = document.querySelectorAll(".item")
 
-items.forEach((item, index) => {
-    if(item[index] === true){
-        item.classList.add("clicked")
-    }
+item.forEach((itemSelected) => {
+    itemSelected.addEventListener('click', () => {
+        const itemAtual = document.querySelector(".clicked")
+
+        itemAtual.classList.remove("clicked")
+        
+        itemSelected.classList.add("clicked")
+    })
 })
