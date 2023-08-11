@@ -9,7 +9,7 @@ body {
     */
   font-weight: 400;
   background: var(--gradient);
-  margin: auto;
+  /* margin: auto; */
 }
 
 main {
@@ -19,7 +19,6 @@ main {
   justify-content: center;
   align-items: center;
   /* z-index: 1; */
-  /* background-color: red; */
 }
 
 .content-card {
@@ -38,7 +37,6 @@ main {
 .images {
   flex: 1;
   position: relative;
-  /* background-color: red; */
   background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
 }
 
@@ -47,7 +45,7 @@ main {
   top: -50%;
   left: -92px;
   /* z-index: 1; */
-  display: none;
+  /* display: none; */
 }
 
 .woman-pc {
@@ -58,15 +56,13 @@ main {
   left: -83px;
   transform: translateY(-50%);
   /* z-index: 0; */
-  display: none;
+  /* display: none; */
 }
 
 .woman-mobile {
-  /* display: none; */
-  /* display: none; */
+  display: none;
   /* position: absolute; */
   /* top: 0; */
-  /* background-color: brown; */
 }
 
 .acordeon {
@@ -93,25 +89,25 @@ main {
   margin-bottom: 0;
 }
 
-.acordeon h2 {
+.acordeon .item h2 {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.acordeon p {
+.acordeon .item p {
   font-size: 12px;
   display: none;
 }
 
 /*  Para evento de clique  */
 
-.item.clicked h2 {
+.acordeon .item.clicked h2 {
   font-weight: 700;
   color: var(--primary-color);
 }
 
-.item.clicked p {
+.acordeon .item.clicked p {
   display: block;
   color: var(--secundary-neutral);
 }
