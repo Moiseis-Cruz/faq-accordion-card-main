@@ -9,7 +9,9 @@
   }
   
   .images {
+    position: absolute;
     flex: 0;
+    top: -108px;
     background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
     background-size: contain;
   }
@@ -24,7 +26,7 @@
 
   .woman-mobile {
     display: block;
-    transform: translateY(-70%);
+    /* transform: translateY(-70%); */
   }
 
   .acordeon {
@@ -33,6 +35,7 @@
   }
 
    .acordeon .title {
+    margin-top: 132px;
     margin-bottom: 40px;
     text-align: center;
   }
