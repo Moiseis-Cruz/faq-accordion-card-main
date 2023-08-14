@@ -82,7 +82,7 @@ main {
   transition: ease-in-out;
 }
 
-.acordeon .item h2:active {
+.acordeon .item:active h2 {
   color: var(--secundary-color);
 }
 
