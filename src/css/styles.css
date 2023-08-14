@@ -34,8 +34,6 @@ main {
 
 .images {
   flex: 1;
-  background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
-  background-size: contain;
 }
 
 .box {
@@ -48,6 +46,8 @@ main {
   position: absolute;
   top: 70px;
   left: 0;
+  background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
+  background-size: cover;
 }
 
 .woman-mobile {
@@ -56,7 +56,7 @@ main {
 
 .acordeon {
   flex: 1;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .acordeon .title {
