@@ -27,24 +27,31 @@ main {
   border-radius: 23px;
   box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
   position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .images {
   flex: 1;
+  background-color: pink;
+  height: 509px;
 }
 
 .box {
   position: absolute;
   top: 206px;
   left: -90px;
+  /* z-index: 2; */
+  /* overflow: auto; */
 }
 
 .woman-pc {
   position: absolute;
   top: 70px;
-  left: 0;
-  background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
+  left: -50px;
+  background: red url(../images/bg-pattern-desktop.svg) no-repeat center center;
   background-size: cover;
+  z-index: 1;
 }
 
 .woman-mobile {
