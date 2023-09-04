@@ -20,6 +20,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 87px;
   background-color: var(--tertiary-color);
   width: 100%;
   max-width: 920px;
@@ -33,8 +34,10 @@ main {
 
 .images {
   flex: 1;
-  background-color: pink;
+  /* background-color: pink; */
   height: 509px;
+  background: url(../images/bg-pattern-desktop.svg) no-repeat center center;
+  background-size: contain;
 }
 
 .box {
@@ -49,9 +52,8 @@ main {
   position: absolute;
   top: 70px;
   left: -50px;
-  background: red url(../images/bg-pattern-desktop.svg) no-repeat center center;
   background-size: cover;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .woman-mobile {
