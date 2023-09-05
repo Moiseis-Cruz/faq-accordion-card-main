@@ -1,11 +1,12 @@
 @media (max-width: 768px) {
   .content-card {
-    width: 100%;
     max-width: 327px;
-    min-height: 643px;
+    min-height: 535px;
     flex-direction: column;
     margin-top: 148px;
     margin-bottom: 85px;
+    gap: 0;
+    overflow: visible;
   }
   
   .images {
@@ -15,35 +16,45 @@
     background: url(../images/bg-pattern-desktop.svg) no-repeat top center;
     background-size: contain;
   }
-
+  
   .box {
     display: none;
   }
-
+  
   .woman-pc {
     display: none;
   }
-
+  
   .woman-mobile {
     display: block;
-    /* transform: translateY(-70%); */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 327px;
+    height: 180px;
   }
-
+  
   .acordeon {
     flex: 0;
     width: 279px;
+    height: 355px;
+    margin-top: 60px;
   }
-
-   .acordeon .title {
-    margin-top: 132px;
-    margin-bottom: 40px;
+  
+  .acordeon .title {
+    margin-bottom: 0px;
     text-align: center;
   }
 
+  .acordeon .list {
+    margin-top: 38px;
+  }
+  
   .acordeon .item {
     width: 100%;
   }
-
+  
   .acordeon h2 {
     font-size: 13px;
     margin-bottom: 13px;
