@@ -9,5 +9,9 @@ item.forEach((itemSelected) => {
         }
         
         itemSelected.classList.add("clicked")
+
+        if(itemAtual){
+            itemAtual.classList.remove("clicked")
+        }
     })
 })
