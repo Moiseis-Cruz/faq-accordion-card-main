@@ -12,7 +12,7 @@ Usei o querySelectorAll para selecionar todos os elementos através do DOM. E po
 
 Neste evento de clique adiciono uma classe do CSS ao elemento clicado, ou no caso de uma tela touch ser tocado, que faz com que seja expandido determinada questão. E clicando em outro tópico o anterior é fechado, ou o atual se fecha ao ser clicado novamente.
 
-A minha maior dificuldade ficou por conta da exibição das imagens no card. 
+A minha maior dificuldade ficou por conta da exibição das imagens no card que são alteradas dependendo do tamanho da tela em que seja exibida. No restante da responsividade não tive maiores problemas. 
 
 
 ## Linguagens Utilizadas:
