@@ -10,7 +10,7 @@ Esse o um dos meus primeiro projetos, do Frontend Mentor, envolvendo uma liguage
 
 Ao clicar em um tópico será mostrada uma resposta para a questão. Além disso, o tópico fica em uma fonte com peso maior e a seta da cor laranja fica invertida, indicando que aquele tópico está selecionado.
 
-Para criar a lógica de programação, antes eu criei estilos em ``` CSS ``` a serem adicionado ou removido usando um evento de click com o ``` JavaScript ```, dentro de um <i>forEach</i>, em cada item da lista.
+Para criar a lógica de programação, antes eu criei estilos em `` CSS `` a serem adicionado ou removido usando um evento de click com o `` JavaScript ``, dentro de um <i>forEach</i>, em cada item da lista.
 
 ## Linguagens Utilizadas:
 
