@@ -16,7 +16,7 @@ Neste evento de clique adiciono uma classe do CSS ao elemento clicado, ou no cas
 
 A minha maior dificuldade ficou por conta da exibição das imagens no card que são alteradas dependendo do tamanho da tela em que seja exibida. Problema resolvido usando a propriedade display com o valor que o torna existente ou não, dependendo do tamanho da tela a ser exibido.
 
-Também desafiador utilizar os backgrounds posicionados no lugar correto.
+Também desafiador utilizar os backgrounds posicionados no lugar correto. Para resolver isso, use a propriedade ``background`` com valores para, tamanho, posicionamento, repetição e endereço de imagens.
 
 No restante da responsividade não tive maiores problemas. 
 
