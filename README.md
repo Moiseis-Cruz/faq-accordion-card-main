@@ -14,8 +14,11 @@ Neste evento de clique adiciono uma classe do CSS ao elemento clicado, ou no cas
 
 ## Minhas Dificuldades:
 
-A minha maior dificuldade ficou por conta da exibição das imagens no card que são alteradas dependendo do tamanho da tela em que seja exibida. No restante da responsividade não tive maiores problemas. 
+A minha maior dificuldade ficou por conta da exibição das imagens no card que são alteradas dependendo do tamanho da tela em que seja exibida. Problema resolvido usando a propriedade display com o valor que o torna existente ou não, dependendo do tamanho da tela a ser exibido.
 
+Também desafiador utilizar os backgrounds posicionados no lugar correto.
+
+No restante da responsividade não tive maiores problemas. 
 
 ## Linguagens Utilizadas:
 
